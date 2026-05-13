@@ -702,70 +702,67 @@ button {
     linear-gradient(180deg, #fffaf0, #edf1ee);
 }
 .lesson-body .site-header {
-  padding-block: 10px;
+  min-height: 44px;
+  padding: 6px clamp(14px, 2vw, 26px);
+  gap: 14px;
+}
+.lesson-body .brand {
+  font-size: 17px;
+}
+.lesson-body nav {
+  gap: 12px;
+}
+.lesson-body nav a {
+  font-size: 13px;
 }
 .lesson-body .site-header button {
-  padding: 8px 12px;
+  min-height: 32px;
+  padding: 6px 10px;
   line-height: 1.1;
 }
 .lesson-page {
-  height: calc(100dvh - 62px);
+  height: calc(100dvh - 45px);
   display: grid;
-  grid-template-rows: auto minmax(0, 1fr);
-  gap: 10px;
-  padding: 10px clamp(14px, 2vw, 24px) 14px;
+  grid-template-rows: 34px minmax(0, 1fr);
+  gap: 8px;
+  padding: 8px clamp(10px, 1.4vw, 18px) 10px;
   overflow: hidden;
 }
 .lesson-page-intro {
-  display: grid;
-  grid-template-columns: minmax(360px, 1fr) auto;
-  gap: 18px;
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
   align-items: center;
+  min-width: 0;
   min-height: 0;
+  border: 1px solid rgba(20, 60, 52, .14);
+  border-radius: 8px;
+  padding: 6px 10px;
+  background: rgba(255, 250, 240, .72);
 }
 .lesson-page-intro h1 {
   margin: 0;
   max-width: none;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(26px, 2.5vw, 40px);
-  line-height: 1;
+  font-size: clamp(17px, 1.35vw, 23px);
+  line-height: 1.05;
   letter-spacing: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .lesson-page-intro p:not(.overline) {
-  margin: 6px 0 0;
-  max-width: 92ch;
-  color: #4d5a52;
-  font-size: clamp(13px, 1vw, 15px);
-  line-height: 1.35;
-}
-.lesson-page-intro .lesson-principles {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  width: min(760px, 42vw);
-  gap: 8px;
   margin: 0;
-}
-.lesson-page-intro .lesson-principles article {
-  grid-template-columns: 24px 1fr;
-  gap: 2px 8px;
-  min-height: 0;
-  padding: 8px 10px;
-}
-.lesson-page-intro .lesson-principles p {
-  display: none;
-}
-.lesson-page-intro .lesson-principles span {
-  grid-row: auto;
-  font-size: 14px;
-}
-.lesson-page-intro .lesson-principles strong {
-  align-self: center;
-  font-size: 14px;
-  line-height: 1.1;
+  max-width: none;
+  color: #4d5a52;
+  font-size: 13px;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 .lesson-workspace {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  gap: 12px;
+  grid-template-columns: minmax(0, 1.04fr) minmax(0, .96fr);
+  gap: 10px;
   min-height: 0;
 }
 .lesson-work-panel,
@@ -784,16 +781,18 @@ button {
 }
 .lesson-page .lesson-topbar {
   align-items: center;
-  padding: 10px 14px;
+  min-height: 48px;
+  padding: 7px 12px;
 }
 .lesson-page .lesson-topbar h3 {
-  font-size: clamp(24px, 2vw, 32px);
+  font-size: clamp(21px, 1.65vw, 28px);
 }
 .lesson-page .lesson-status {
-  padding: 5px 8px;
+  padding: 4px 7px;
+  font-size: 11px;
 }
 .lesson-page .lesson-progress button {
-  min-height: 34px;
+  min-height: 30px;
   font-size: 11px;
 }
 .lesson-work-panel .lesson-stage {
@@ -803,21 +802,22 @@ button {
   border-bottom: 0;
 }
 .lesson-page .lesson-stage {
-  gap: 11px;
-  padding: 14px 18px 18px;
+  align-content: start;
+  gap: 9px;
+  padding: 10px 14px 14px;
 }
 .lesson-page .lesson-stage h4 {
-  font-size: clamp(22px, 2vw, 30px);
+  font-size: clamp(20px, 1.65vw, 26px);
 }
 .lesson-page .lesson-stage p:not(.overline) {
-  font-size: 15px;
-  line-height: 1.4;
+  font-size: 14px;
+  line-height: 1.35;
 }
 .lesson-page .overline {
   margin-bottom: 5px;
 }
 .lesson-page .video-shell {
-  width: min(100%, 76dvh);
+  width: min(100%, 82dvh);
   margin: 0 auto;
 }
 .lesson-tutor-panel .lesson-chat {
@@ -856,29 +856,33 @@ button {
 }
 .lesson-page .tutor-heading {
   align-items: center;
-  padding: 10px 14px 8px;
+  min-height: 48px;
+  padding: 7px 12px;
+  border-bottom: 1px solid var(--line);
 }
 .lesson-page .tutor-heading h4 {
-  font-size: clamp(24px, 2vw, 32px);
+  font-size: clamp(21px, 1.65vw, 28px);
 }
 .lesson-page .tutor-heading span {
-  padding: 5px 8px;
+  padding: 4px 7px;
+  font-size: 11px;
 }
 .lesson-page .lesson-chat {
-  padding: 14px 16px;
+  align-content: start;
+  padding: 12px 14px;
 }
 .lesson-page .lesson-form {
-  gap: 10px;
-  padding: 12px 16px;
+  gap: 8px;
+  padding: 10px 12px;
 }
 .lesson-page .lesson-form textarea {
-  min-height: 82px;
+  min-height: 68px;
 }
 .lesson-page .lesson-form button {
-  min-height: 44px;
+  min-height: 40px;
 }
 .lesson-page .prompt-preview {
-  padding: 10px 16px 12px;
+  padding: 8px 12px 10px;
 }
 .lesson-layout {
   display: grid;
