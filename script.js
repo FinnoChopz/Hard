@@ -49,7 +49,7 @@ const mapContent = {
   struggle: ['Help or Substitution', 'The tool must support the learner without performing the learner away.', 'The educational line is not AI versus no AI. It is whether the system removes wasteful friction while preserving the struggle that builds capacity.', '#the-line-between-help-and-substitution'],
   literacy: ['Self-Government', 'Prompting is too small a skill.', 'AI literacy is metacognition under pressure: ask for the right help, challenge fluent answers, verify claims, and know when to close the screen.', '#ai-literacy-as-self-government'],
   governance: ['Public Guardrails', 'Democratization has to be built.', 'Privacy, pluralism, audits, teacher authority, and public rules determine whether AI expands opportunity or sells advantage.', '#democracy-capture-and-the-public-tool'],
-  giftedness: ['Giftedness After Output', 'Polish gets cheaper. Depth matters more.', 'Talent shows up in questions, originality, appetite for complexity, sustained projects, and standards strong enough to survive convenience.', '#giftedness-after-the-answer-machine']
+  giftedness: ['Giftedness After Output', 'Polish gets cheaper. Depth matters more.', 'Talent shows up in questions, creative defiance, practical judgment, wisdom about consequences, and standards strong enough to survive convenience.', '#giftedness-after-the-answer-machine']
 };
 const mapNodes = [...document.querySelectorAll('[data-map]')];
 const mapKicker = document.querySelector('[data-map-kicker]');
