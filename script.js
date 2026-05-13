@@ -50,7 +50,7 @@ const mapContent = {
   literacy: ['Self-Government', 'Prompting is too small a skill.', 'AI literacy is metacognition under pressure: ask for the right help, challenge fluent answers, verify claims, and know when to close the screen.', '#ai-literacy-as-self-government'],
   governance: ['Public Guardrails', 'Democratization has to be built.', 'Privacy, pluralism, audits, teacher authority, and public rules determine whether AI expands opportunity or sells advantage.', '#democracy-capture-and-the-public-tool'],
   giftedness: ['Giftedness After Output', 'Polish gets cheaper. Depth matters more.', 'Talent shows up in questions, creative defiance, practical judgment, wisdom about consequences, and standards strong enough to survive convenience.', '#giftedness-after-the-answer-machine'],
-  frontier: ['Scaffold to the Frontier', 'The edge of real problems is where the work is.', 'Higher education skips the rituals that no longer matter and brings students to the edge of unanswered questions.', '#scaffold-to-the-frontier']
+  frontier: ['Scaffold to the Frontier', 'The edge of real problems is where the work is.', 'Higher education should move beyond artifacts that no longer carry the whole process and bring students to the edge of unanswered questions.', '#scaffold-to-the-frontier']
 };
 const mapNodes = [...document.querySelectorAll('[data-map]')];
 const mapKicker = document.querySelector('[data-map-kicker]');
@@ -105,3 +105,55 @@ objectionTabs.forEach((tab) => {
     objectionBody.textContent = content[2];
   });
 });
+
+
+const essayTabs = [...document.querySelectorAll('[data-essay-tab]')];
+const essayPanels = [...document.querySelectorAll('[data-essay-panel]')];
+
+function activateEssayTab(tabName, shouldScroll = false) {
+  if (!essayTabs.length || !essayPanels.length) return;
+  essayTabs.forEach((tab) => {
+    const active = tab.dataset.essayTab === tabName;
+    tab.classList.toggle('is-active', active);
+    tab.setAttribute('aria-selected', active ? 'true' : 'false');
+  });
+  essayPanels.forEach((panel) => {
+    const active = panel.dataset.essayPanel === tabName;
+    panel.classList.toggle('is-active', active);
+    panel.hidden = !active;
+  });
+  if (shouldScroll) {
+    document.getElementById('essay')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function tabForHash() {
+  const id = window.location.hash.replace('#', '');
+  if (!id) return null;
+  const target = document.getElementById(id);
+  if (!target) return null;
+  const panel = target.closest('[data-essay-panel]');
+  return panel?.dataset.essayPanel || null;
+}
+
+essayTabs.forEach((tab) => {
+  tab.addEventListener('click', () => activateEssayTab(tab.dataset.essayTab, false));
+});
+
+document.querySelectorAll('[data-tab-target]').forEach((link) => {
+  link.addEventListener('click', () => activateEssayTab(link.dataset.tabTarget, false));
+});
+
+function syncEssayTabToHash() {
+  const id = window.location.hash.replace('#', '');
+  const tab = tabForHash();
+  if (tab) {
+    activateEssayTab(tab, false);
+    requestAnimationFrame(() => {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+  }
+}
+
+window.addEventListener('hashchange', syncEssayTabToHash);
+syncEssayTabToHash();
