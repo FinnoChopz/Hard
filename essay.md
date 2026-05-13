@@ -2,7 +2,7 @@
 
 ## AI, Education, and the Future of Human Formation
 
-The answer is no longer scarce. That is the first fact education has to absorb.
+Answers are no longer scarce. That is the first fact education has to absorb.
 
 For centuries, schools were organized around a severe limit: there were never enough people who knew the subject, understood the child, had time to explain the next idea, and could remain patient while confusion did its slow work. A student who missed the crucial step in algebra, the governing premise in a lecture, or the hidden assumption inside a paragraph often had to wait. Wait until class ended. Wait until office hours. Wait until a parent came home. Wait until shame softened enough to ask. Much of school has been built around the rationing of expert attention.
 
@@ -260,7 +260,7 @@ The task is not to make school effortless. The task is to help students struggle
 ## Works Cited
 
 - Alexander, Scott. "The Whispering Earring." Croissanthology, 2012. https://croissanthology.com/earring
-- Bjork, Robert A., and Elizabeth L. Bjork. "Making Things Hard on Yourself, But in a Good Way: Creating Desirable Difficulties to Enhance Learning." In Psychology and the Real World, 2011. https://psycnet.apa.org/record/2011-28322-005
+- Bjork, Robert A., and Elizabeth L. Bjork. "Making Things Hard on Yourself, But in a Good Way: Creating Desirable Difficulties to Enhance Learning." In Psychology and the Real World, 2011. https://www.researchgate.net/publication/284097727_Making_things_hard_on_yourself_but_in_a_good_way_Creating_desirable_difficulties_to_enhance_learning
 - Bloom, Benjamin S. "The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring." Educational Researcher, 1984. https://doi.org/10.3102/0013189X013006004
 - Gerlich, Michael. "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking." Societies, 2025. https://www.mdpi.com/2075-4698/15/1/6
 - Heidegger, Martin. "The Question Concerning Technology." In The Question Concerning Technology and Other Essays, 1977.
