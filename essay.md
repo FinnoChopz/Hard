@@ -6,15 +6,15 @@ Answers are no longer scarce. That is the first fact education has to absorb.
 
 For centuries, schools were organized around a severe limit: there were never enough people who knew the subject, understood the child, had time to explain the next idea, and could remain patient while confusion did its slow work. A student who missed the crucial step in algebra, the governing premise in a lecture, or the hidden assumption inside a paragraph often had to wait. Wait until class ended. Wait until office hours. Wait until a parent came home. Wait until shame softened enough to ask. Much of school has been built around the rationing of expert attention.
 
-Artificial intelligence does not abolish that scarcity, but it changes its terms. A student can now ask for a second explanation at midnight. A teacher can ask for ten practice problems at three levels of difficulty. A child who would never raise a hand can ask the same question five ways without performing confidence for the room. A gifted student can ask for extension instead of waiting politely. A struggling student can ask for the missing premise instead of drowning quietly beneath the next one. This is not a marginal tool. It is a shift in the material conditions of learning.
+Artificial intelligence does not abolish that scarcity, but it changes its terms. When a student is strugging, they can ask an AI to "explain it to a 5 year old", or "explain it using star wars analogies", or "explain why it isn't xyz". A teacher can ask for ten practice problems at three levels of difficulty. A child who would never raise a hand can ask the same question five ways without performing confidence for the room. A gifted student can push into new territories instead of waiting politely. A struggling student can ask for the missing premise instead of drowning quietly beneath the next one. This is not a marginal tool. It is a shift in the material conditions of learning.
 
-But education was never only the transfer of answers. If the goal were merely to deliver correct responses, schools could become warehouses of explanation and assessment could become a contest of output. The deeper purpose is formation: memory, judgment, language, courage, attention, taste, self-command, social responsibility, and the capacity to meet difficulty without disappearing from oneself. These powers are not downloaded. They are made through use.
+But education was never only the transfer of answers. If the goal were merely to deliver correct responses, schools could become warehouses of explanation and assessment could become a contest of output. The deeper purpose is formation: memory, judgment, language, courage, attention, taste, self-command, social responsibility, and the capacity to meet difficulty without disappearing from oneself. These powers are not downloaded. They are forged through struggle, through failure, through use.
 
 That is the central tension. AI can make help abundant. It can also make evasion frictionless. It can tutor a student through confusion, or it can quietly perform the thinking that confusion was supposed to awaken. It can democratize access to high-quality explanation, or it can widen the advantage of families and schools already rich in tools, bandwidth, and adult guidance. It can help teachers see learners more clearly, or it can turn childhood into a ledger of behavioral data. It can provoke thought, or it can flatten it into fluent completion.
 
 The question, then, is not whether AI belongs in education. It is already there: in homework drafts, translation tools, search results, tutoring apps, parent emails, teacher planning, and the pocket of any student with a browser. The real question is whether schools will design around it with moral clarity, or whether the new system will be built by accident through bans, panic, procurement contracts, and student improvisation.
 
-This essay argues for a disciplined middle path. AI should become part of the architecture of schooling, but only under a principle that is simple enough to remember and demanding enough to matter: scaffold the learner without substituting for the learner. Use AI to remove the friction that wastes students. Preserve the struggle that forms them. Let the tool extend explanation, feedback, accessibility, and intellectual range. Do not let it become the author of the student's mind.
+This essay argues for a disciplined middle path in K-12 schooling. AI should become part of the architecture of schooling, but only under a principle that is simple enough to remember and demanding enough to matter: scaffold the learner without substituting for the learner. Use AI to remove the friction that wastes students. Preserve the struggle that forms them. Let the tool extend explanation, feedback, accessibility, and intellectual range. Do not let it become the author of the student's mind.
 
 This essay makes three claims. First, AI changes education because it makes responsive explanation more abundant. Second, abundance of help makes student agency, judgment, and formative struggle more important, not less. Third, schools should redesign curriculum, assessment, gifted education, and governance around a single principle: scaffold the learner without substituting for the learner.
 
@@ -32,9 +32,10 @@ The most valuable educational resource has always been responsive intelligence: 
 
 Benjamin Bloom's "2 sigma problem" gave classic form to this dilemma. In 1984, Bloom described the unusually strong results of one-to-one tutoring and mastery learning, then asked how group instruction might approximate that power at scale ([Bloom, 1984](https://doi.org/10.3102/0013189X013006004)). The problem was never that educators lacked imagination. It was that individualization required time, attention, and expertise that mass schooling could not provide to every child in every moment.
 
+
 Intelligent tutoring systems have been trying to narrow that gap for decades. Kurt VanLehn's review found that some computer tutoring systems could approach the effectiveness of human tutoring more closely than many would have expected ([VanLehn, 2011](https://doi.org/10.1080/00461520.2011.611369)). The new generation of AI does not invent the dream of scalable tutoring. It changes its texture. A student can ask in ordinary language. The system can answer, adapt, quiz, rephrase, challenge, simplify, deepen, and remember the thread of a conversation. A teacher can design materials that respond instead of merely sit.
 
-The evidence is early, uneven, and easily overhyped. That caution matters. But the strongest results are no longer imaginary. In a randomized controlled trial, Kestin, Miller, Klales, Milbourne, and Ponti found that a carefully designed AI tutor in a college physics setting helped students learn more in less time than an in-class active-learning comparison ([Kestin et al., 2025](https://www.nature.com/articles/s41598-025-97652-6)). The study does not prove that any chatbot improves any classroom. It proves something narrower and more useful: when an AI system is built around sound pedagogy rather than mere answer generation, it can do real instructional work.
+The evidence is early, uneven, and easily overhyped. That caution matters. But the strongest results are no longer imaginary. In a randomized controlled trial, Kestin, Miller, Klales, Milbourne, and Ponti found that a carefully designed AI tutor (engineered by instructors) in a college physics setting helped students learn more in less time than an in-class active-learning comparison ([Kestin et al., 2025](https://www.nature.com/articles/s41598-025-97652-6)). The study does not prove that any chatbot improves any classroom. It proves something narrower and more useful: when an AI system is built around sound pedagogy rather than mere answer generation, it can do real instructional work.
 
 That distinction is everything. The educational promise is not "ChatGPT for every child" in the lazy sense of an all-purpose machine waiting to complete assignments. The promise is more precise: expert scaffolding can be designed once, improved over time, audited, translated, adapted, and made available to learners who would otherwise never receive that level of immediate support. The marginal cost of the next explanation falls. The availability of practice rises. The silence between confusion and help gets shorter.
 
@@ -164,7 +165,7 @@ The future curriculum should train students not only to solve problems, but to f
 
 I'm two weeks from graduating from Cornell. ChatGPT came out the first semester of my freshman year. I am the trial run.
 
-What I've watched, from inside, is closer to Owen Yingling's account than to most of what gets written about AI in education. AI use is everywhere. The schools pretend it isn't, or that their policies handle it. They don't. The students know. The professors know the students know. The artifact submitted in most classes no longer means what it used to mean, and everyone in the room can feel the gap.
+What I've watched, from inside, is closer to the account given by Owen Yingling(from this morning's article) than to most of what gets written about AI in education. AI use is everywhere. The schools pretend it isn't, or that their policies handle it. They don't. The students know. The professors know the students know. The artifact submitted in most classes no longer means what it used to mean, and everyone in the room can feel the gap.
 
 Yingling is right about the diagnosis. The dominant pattern is substitution, not integration. The administrative response — new language about AI in the classroom, new concern about cheating — too often treats symptoms without redesigning the work underneath. He is also right that something real is being lost. The eccentric professor reading a poem aloud in a small room of attentive students is one of the most valuable things any institution has ever produced. Some of it is fading. Some of it should be fought for.
 
@@ -190,9 +191,10 @@ Second, below a clear floor, use in-person, no-electronics exams and presentatio
 
 Third, above the floor, make real problems and real contribution the goal. Let students use the tools. Grade on whether the contribution holds up. A junior in emotional-regulation research should be working on a live question with the professor as advisor, with AI as an allowed tool, and with evaluation focused on whether the work is real.
 
-Most classes will still be classes. Many will not change much. That is fine. This is a direction, not a switch. You cannot run a frontier sphere-packing proof in a fourteen-week course without years of background. But you can put students in the room with a problem someone is actually trying to solve, hand them tools that did not exist five years ago, and challenge them to create.
+Most classes will still be classes. Many will not change much. That is fine. This is a direction, not a switch. You cannot bring every student to the frontier of every discipline in fourteen weeks. Some fields require years of background before the real edge is visible. But you can put students closer to live questions than most courses currently do, hand them tools that did not exist five years ago, and challenge them to create something defensible. But you can put students in the room with a problem someone is actually trying to solve, hand them tools that did not exist five years ago, and challenge them to create. I do not pretend to know the final design. The declared-track idea may fail. The required AI literacy course may need a different shape. "Scaffold to the frontier" may not survive contact with a curriculum committee. But we will learn from our mistakes, and itereate forward.  This essay doesn't aim to solve the problem of AI in education--it aims to ask questions, and engage with an extraordinarily important discourse.
 
-I do not pretend to know the final design. The declared-track idea may fail. The required AI literacy course may need a different shape. "Scaffold to the frontier" may not survive contact with a curriculum committee. But I have spent four years inside the trial run, and the direction seems right to me.
+
+
 
 About a year ago I sat next to a woman on a plane who turned out to be the dean of arts and sciences at the University at Buffalo. We talked about AI. Her advice was simple: stop focusing on the role, start focusing on the problem. The job titles change every decade. The big problems survive. Become proficient at walking the jagged edge of one of them, and you are valuable to society in a way the machine cannot counterfeit.
 
@@ -225,7 +227,7 @@ The synthesis is intention. Technology will shape education; the question is whe
 If optimization becomes god, struggle looks like inefficiency. If formation remains the aim, some struggle becomes the point.
 ## What Schools Should Build Now
 
-Schools do not need a perfect theory before acting. They need a public, revisable design discipline.
+The point is not to choose between humanistic education and technological fluency. The point is to make technological fluency answer to humanistic education.  Schools do not need a perfect theory before acting. They need a public, revisable design discipline.
 
 Four rules should guide the first generation of AI school design:
 
@@ -255,7 +257,7 @@ That is the future worth building: not frictionless learning, not automated scho
 
 To teach with AI well is to make help abundant and agency harder to surrender. It is to remove the friction that wastes children and preserve the struggle that makes them free.
 
-The task is not to make school effortless. The task is to help students struggle well.
+The task is not to make school effortless. The task is to help students struggle well.  
 
 ## Works Cited
 

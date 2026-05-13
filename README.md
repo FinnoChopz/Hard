@@ -4,6 +4,7 @@ This folder contains the final essay and an enhanced static presentation site.
 
 - `essay.md` is the full longform essay.
 - `index.html` is the interactive presentation website.
+- `lesson.html` is the standalone quantum entanglement lesson with a two-pane workspace.
 - `styles.css` and `script.js` power the visual layout, slides, hook dial, argument map, objection room, and the gated quantum entanglement lesson.
 - `api/lesson.js` is the Vercel serverless quantum tutor endpoint. It keeps the system prompt and OpenAI API key server-side, and returns a local demo response if no key is configured.
 - `assets/hero-ai-classroom.png` is the generated hero image used by the site.

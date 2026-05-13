@@ -3,22 +3,25 @@ const counter = document.querySelector("[data-slide-count]");
 let active = 0;
 
 function showSlide(index) {
+  if (!slides.length || !counter) return;
   active = (index + slides.length) % slides.length;
   slides.forEach((slide, i) => slide.classList.toggle("is-active", i === active));
   counter.textContent = `${active + 1} / ${slides.length}`;
 }
 
-document.querySelector("[data-prev]").addEventListener("click", () => showSlide(active - 1));
-document.querySelector("[data-next]").addEventListener("click", () => showSlide(active + 1));
-document.querySelector("[data-print]").addEventListener("click", () => window.print());
+document.querySelector("[data-prev]")?.addEventListener("click", () => showSlide(active - 1));
+document.querySelector("[data-next]")?.addEventListener("click", () => showSlide(active + 1));
+document.querySelector("[data-print]")?.addEventListener("click", () => window.print());
 
 document.addEventListener("keydown", (event) => {
+  if (!slides.length) return;
   if (event.key === "ArrowRight") showSlide(active + 1);
   if (event.key === "ArrowLeft") showSlide(active - 1);
 });
 
 const progress = document.querySelector(".progress");
 function updateProgress() {
+  if (!progress) return;
   const scrollable = document.documentElement.scrollHeight - window.innerHeight;
   const pct = scrollable > 0 ? window.scrollY / scrollable : 0;
   progress.style.width = `${Math.max(0, Math.min(1, pct)) * 100}%`;

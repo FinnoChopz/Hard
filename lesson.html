@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Entanglement Lab | To Struggle Well</title>
+  <meta name="description" content="A standalone interactive quantum entanglement lesson with gated checkpoints, visual demos, and a scaffolded AI tutor.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="lesson-body">
+  <div class="progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="index.html#top">To Struggle Well</a>
+    <nav aria-label="Primary navigation">
+      <a href="index.html#essay">Essay</a>
+      <a href="index.html#hook">Hook</a>
+      <a href="index.html#map">Map</a>
+      <a href="index.html#objections">Objections</a>
+      <a class="is-active" href="lesson.html">Lesson</a>
+      <a href="index.html#present">Slides</a>
+      <a href="index.html#works-cited">Sources</a>
+    </nav>
+    <button type="button" data-print>Print</button>
+  </header>
+
+  <main class="lesson-page" id="lesson">
+    <section class="lesson-page-intro" aria-labelledby="lesson-title">
+      <div>
+        <p class="overline">Standalone Interactive Lesson</p>
+        <h1 id="lesson-title">Quantum entanglement, from zero background.</h1>
+        <p>A beginner lab on the strangest simple idea in quantum physics: two tiny systems can share one state, so measuring one tells you something about the other, even when they are far apart.</p>
+      </div>
+      <div class="lesson-principles" aria-label="Pedagogical constraints">
+        <article>
+          <span>01</span>
+          <strong>Watch first</strong>
+          <p>Start with a short NOVA/PBS video.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <strong>Answer to advance</strong>
+          <p>Every checkpoint unlocks only after the core idea lands.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <strong>Ask immediately</strong>
+          <p>The tutor stays open beside the lesson when something is not clicking.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="lesson-workspace" aria-label="Entanglement lesson workspace">
+      <section class="lesson-work-panel lesson-console" aria-label="Lesson video and checkpoints">
+        <div class="lesson-topbar">
+          <div>
+            <p class="overline">Mini-Course</p>
+            <h3>Entanglement Lab</h3>
+          </div>
+          <span class="lesson-status" data-lesson-status>Step 1 / 6</span>
+        </div>
+
+        <div class="lesson-progress" data-lesson-progress aria-label="Lesson progress"></div>
+
+        <div class="lesson-stage" aria-live="polite">
+          <p class="overline" data-step-kicker>Watch</p>
+          <h4 data-step-title>Start with a short human explainer.</h4>
+          <p data-step-body>Watch the opener, then begin the guided checkpoints.</p>
+          <div class="step-activity" data-step-activity></div>
+          <form class="check-form" data-check-form></form>
+          <div class="checkpoint-feedback" data-feedback></div>
+          <button class="next-step" type="button" data-next-step hidden>Continue</button>
+        </div>
+      </section>
+
+      <aside class="lesson-tutor-panel tutor-panel" aria-label="AI tutor">
+        <div class="tutor-heading">
+          <div>
+            <p class="overline">AI by your side</p>
+            <h4>Ask the Quantum Tutor</h4>
+          </div>
+          <span data-tutor-mode>Demo ready</span>
+        </div>
+
+        <div class="lesson-chat" data-lesson-chat aria-live="polite">
+          <article class="lesson-message tutor">
+            <span>Tutor</span>
+            <p>Ask me about entanglement while you work. I can use everyday analogies, slow down, give hints, or check your reasoning, but I will not simply hand you the checkpoint answer.</p>
+          </article>
+        </div>
+
+        <form class="lesson-form" data-lesson-form>
+          <label>
+            Question for the tutor
+            <textarea data-lesson-input rows="3">I don't get how two particles can be connected without sending a message. Can you explain it simply?</textarea>
+          </label>
+          <button type="submit">Ask Tutor</button>
+        </form>
+
+        <details class="prompt-preview">
+          <summary>System prompt boundary</summary>
+          <p>The tutor is prompted to teach quantum entanglement from zero background through scaffolded explanation, analogies, brief hints, and transfer questions. It should clarify without giving away checkpoint answers.</p>
+        </details>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -99,7 +99,7 @@ module.exports = async function handler(req, res) {
         Authorization: `Bearer ${process.env.OPENAI_API_KEY}`
       },
       body: JSON.stringify({
-        model: process.env.OPENAI_MODEL || 'gpt-5-mini',
+        model: process.env.OPENAI_MODEL || 'gpt-5.5-2026-04-23',
         instructions: SYSTEM_PROMPT,
         input: JSON.stringify({
           lesson,
