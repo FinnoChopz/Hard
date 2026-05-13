@@ -50,7 +50,7 @@ const mapContent = {
   literacy: ['Self-Government', 'Prompting is too small a skill.', 'AI literacy is metacognition under pressure: ask for the right help, challenge fluent answers, verify claims, and know when to close the screen.', '#ai-literacy-as-self-government'],
   governance: ['Public Guardrails', 'Democratization has to be built.', 'Privacy, pluralism, audits, teacher authority, and public rules determine whether AI expands opportunity or sells advantage.', '#democracy-capture-and-the-public-tool'],
   giftedness: ['Giftedness After Output', 'Polish gets cheaper. Depth matters more.', 'Talent shows up in questions, creative defiance, practical judgment, wisdom about consequences, and standards strong enough to survive convenience.', '#giftedness-after-the-answer-machine'],
-  frontier: ['Scaffold to the Frontier', 'The edge of real problems is where the work is.', 'Higher education should move beyond artifacts that no longer carry the whole process and bring students to the edge of unanswered questions.', '#scaffold-to-the-frontier']
+  frontier: ['Scaffold to the Frontier', 'The portfolio is the live signal.', 'Higher education should bring students to real problems, let AI scaffold the path, and judge the contribution that survives.', '#scaffold-to-the-frontier']
 };
 const mapNodes = [...document.querySelectorAll('[data-map]')];
 const mapKicker = document.querySelector('[data-map-kicker]');
@@ -88,7 +88,7 @@ const objectionContent = {
   zombification: [
     'Hard objection',
     'Will students just turn their lives over to AI?',
-    'This is Owen Yingling\'s worry, made through Scott Alexander\'s image of the Whispering Earring — a tool whose advice is always locally better than what the wearer would choose alone, until the wearer is no longer choosing anything. The answer is not to refuse the tool. The answer is to give students something they actually want to do. The earring captures the directionless. A student working on a problem they care about, at the frontier of a real field, directs the tool rather than obeys it.'
+    'This is Owen Yingling\'s worry, made through Scott Alexander\'s image of the Whispering Earring. The answer is not to refuse the tool. It is to give students a real problem at the edge of a real field, where AI can scaffold but not solve.'
   ]
 };
 const objectionTabs = [...document.querySelectorAll('[data-objection]')];
