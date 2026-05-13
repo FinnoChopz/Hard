@@ -49,7 +49,8 @@ const mapContent = {
   struggle: ['Help or Substitution', 'The tool must support the learner without performing the learner away.', 'The educational line is not AI versus no AI. It is whether the system removes wasteful friction while preserving the struggle that builds capacity.', '#the-line-between-help-and-substitution'],
   literacy: ['Self-Government', 'Prompting is too small a skill.', 'AI literacy is metacognition under pressure: ask for the right help, challenge fluent answers, verify claims, and know when to close the screen.', '#ai-literacy-as-self-government'],
   governance: ['Public Guardrails', 'Democratization has to be built.', 'Privacy, pluralism, audits, teacher authority, and public rules determine whether AI expands opportunity or sells advantage.', '#democracy-capture-and-the-public-tool'],
-  giftedness: ['Giftedness After Output', 'Polish gets cheaper. Depth matters more.', 'Talent shows up in questions, creative defiance, practical judgment, wisdom about consequences, and standards strong enough to survive convenience.', '#giftedness-after-the-answer-machine']
+  giftedness: ['Giftedness After Output', 'Polish gets cheaper. Depth matters more.', 'Talent shows up in questions, creative defiance, practical judgment, wisdom about consequences, and standards strong enough to survive convenience.', '#giftedness-after-the-answer-machine'],
+  frontier: ['Scaffold to the Frontier', 'The edge of real problems is where the work is.', 'Higher education skips the rituals that no longer matter and brings students to the edge of unanswered questions.', '#scaffold-to-the-frontier']
 };
 const mapNodes = [...document.querySelectorAll('[data-map]')];
 const mapKicker = document.querySelector('[data-map-kicker]');
@@ -83,6 +84,11 @@ const objectionContent = {
     'Philosophical objection',
     'What if the deeper danger is making efficiency sacred?',
     'That worry is real. The answer is to judge AI by human formation, not smoothness: some silence, difficulty, face-to-face argument, slow reading, and unaided thought must remain protected.'
+  ],
+  zombification: [
+    'Hard objection',
+    'Will students just turn their lives over to AI?',
+    'This is Owen Yingling\'s worry, made through Scott Alexander\'s image of the Whispering Earring — a tool whose advice is always locally better than what the wearer would choose alone, until the wearer is no longer choosing anything. The answer is not to refuse the tool. The answer is to give students something they actually want to do. The earring captures the directionless. A student working on a problem they care about, at the frontier of a real field, directs the tool rather than obeys it.'
   ]
 };
 const objectionTabs = [...document.querySelectorAll('[data-objection]')];

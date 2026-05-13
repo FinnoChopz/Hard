@@ -112,15 +112,12 @@ Trust is the hidden infrastructure. Students must be able to explore questions w
 
 ## Privacy and the Inner Life
 
-There is a special privacy problem in education because learning exposes the unfinished self. A student's questions reveal not only knowledge gaps but fear, curiosity, confusion, home context, language ability, disability, belief, loneliness, ambition, and shame. A well-designed tutor could support that vulnerability. A poorly governed system could harvest it.
+There is a special privacy problem in education because learning exposes the unfinished self. A student's questions reveal not only knowledge gaps but fear, curiosity, home context, language ability, disability, belief, and shame. Student data is not ordinary consumer data. It is developmental data. It describes people before they have fully become themselves. A record created at thirteen can follow, classify, or constrain a person who at twenty-five would no longer recognize the child who produced it.
 
-Student data is not ordinary consumer data. It is developmental data. It describes people before they have fully become themselves. A record created at thirteen can follow, classify, or constrain a person who at twenty-five would no longer recognize the child who produced it. The ethical default should be restraint.
-
-AI systems used in schools should collect the least data necessary for learning. They should separate instructional support from commercial profiling. They should make deletion real. They should avoid emotional manipulation and advertising. They should not sell student attention as inventory. They should not infer sensitive traits unless a clear educational purpose, strict protection, and human oversight justify it. They should not treat private struggle as raw material for product improvement without meaningful public consent.
-
-This does not mean no data can be used. Teachers need information. Students benefit when systems remember progress. Researchers can improve education by studying patterns. But the burden of proof belongs on collection. If a system wants the child's data, it should be able to say why, for how long, under whose control, with what protections, and with what right of refusal.
+The ethical default should be restraint. AI systems used in schools should collect the least data necessary for learning, separate instructional support from commercial profiling, make deletion real, and avoid selling student attention as inventory. The burden of proof should belong on collection, not on refusal.
 
 Privacy is not a sentimental obstacle to innovation. It is one of the conditions of intellectual courage. People think more honestly when they have some room not to be permanently known.
+
 
 ## Teachers and the Social Shape of Thought
 
@@ -128,13 +125,11 @@ Every wave of educational technology announces, directly or indirectly, that the
 
 A teacher is not merely a source of explanations. A teacher is a designer of conditions, a reader of attention, a keeper of standards, a translator between child and discipline, a witness to growth, and a moral presence in the room. Teachers notice the student who has stopped trying before the data does. They know when a joke is avoidance, when silence is confusion, when brilliance is brittle, when compliance is hiding despair, when a class needs another example, and when it needs to close the laptop and talk.
 
-AI can support this work. It can generate practice materials, translate text, summarize patterns, suggest interventions, help draft feedback, provide enrichment, and give students more opportunities to rehearse. It can make the teacher's time less clerical and more human. But if AI is used to deskill teachers, script them, monitor them, or replace their judgment with dashboards, it will damage the very institution it claims to modernize.
 
 The best future is not teacher versus machine. It is teacher with better instruments, and students with more routes into the work. Teachers should help choose the tools, adapt them, override them, and explain their limits. Professional development should not consist of a vendor demonstration and a login. It should involve time to test systems, study evidence, design assignments, compare student work, and build shared norms.
 
 Schools are social places because thought is social before it is private. Students learn by hearing each other misunderstand, object, phrase, risk, and revise. They learn that an argument has a face across from it. They learn how it feels to be challenged without being destroyed, praised without being finished, wrong without being worthless. No AI tutor can replace the moral education of a room where minds meet.
 
-If AI makes solitary learning more powerful, schools must become more intentional about togetherness. Discussion, debate, lab work, performance, critique, collaboration, and public explanation should become more central, not less. The classroom should be where private preparation becomes shared intellectual life.
 
 ## Giftedness After the Answer Machine
 
@@ -160,6 +155,88 @@ This is where adaptive intelligence becomes a better aim than mere acceleration.
 
 The future curriculum should train students not only to solve problems, but to frame them, direct tools, judge outputs, and build standards strong enough to survive convenience.
 
+## Scaffold to the Frontier
+
+### *Higher Education, From Inside the Trial Run*
+
+I'm two weeks from graduating from Cornell. ChatGPT came out the first semester of my freshman year. The whole arc of my undergraduate education has run alongside the rise of a tool that no one in the room — students, professors, deans — fully understands. I am the trial run. So is everyone else my age.
+
+What I've watched, from inside, is closer to Owen Yingling's account than to most of what gets written about AI in education. AI use is everywhere. The schools pretend it isn't, or that they have policies that handle it. They don't. The students know. The professors know the students know. The whole edifice runs on a mutual agreement to pretend that the artifact submitted means what it used to mean. It does not.
+
+Yingling is right that this is destructive. He's right that the dominant pattern is not integration but substitution. He's right that there is a deeper rot in the institution that AI didn't cause but is rapidly making visible. And he's right that "AI in the classroom" announcements from elite universities, paired with rising cheating cases, are a kind of administrative theater that nobody believes.
+
+Where I part from him is on what comes next.
+
+Yingling's prescription is to take a harder line. Crack down on AI use. Limit pedagogical integration. Preserve the old institution against the new tool. He acknowledges the institution was already imperfect — he quotes Hutchins on the people loving money and seeing education as a way of getting it — but he wants to defend the equilibrium between intellectualism and professionalism that real universities have always tried to hold.
+
+I think this is nostalgia.
+
+Not the cheap kind. Yingling is a serious thinker. The grief in his essay is real. He sees beautiful things being lost — the doctoral genealogies tracing back to Leibniz, the libraries shelved with monastic care, the eccentric professor who could arouse a feeling for one single good poem. He is not wrong that those things matter. He is not wrong that they are dying. There have always been thoughtful critics of every technological wave who saw clearly what was being lost, sometimes more clearly than the people building the new thing. They were not crazy. The agrarian revolution disrupted ways of being that we cannot now fully recover. The industrial revolution destroyed apprenticeships, crafts, modes of work and life. Every wave does this.
+
+But it also does something else.
+
+After the agrarian revolution, we did not sit on our haunches. We built civilizations. We developed mathematics, written language, philosophy. After the industrial revolution, the surplus labor freed from shoemaking and field work did not collapse into idleness. Within a century, we had cars, planes, quantum physics, computers. Each time a technology absorbed work humans used to do, humans pushed into territory that had been unreachable. The frontier moved. The work got harder, deeper, stranger.
+
+The first objection to this comes back fast. Maybe each previous wave moved the frontier and people moved with it. But this time, look around — most people are not moving toward any frontier. They are scrolling. The freed-up cognitive capacity is being absorbed by recommendation systems, short videos, group chats, a permanent dopamine drip. If AI absorbs the rote work, the surplus may not become quantum physics. It may become TikTok.
+
+This is a real worry. It is the worry that should be loudest in any honest discussion of where this goes.
+
+But it is not an argument against my position. It is an argument for it.
+
+The students I have spent four years with are not zombies. They are moral. They are purposeful. They are humans, optimized over millennia to offload intelligently. For most of their lives they had to do hours of work to get a grade. Now they can get a better grade for less work, so they do. This is not laziness. It is exactly what every person under time pressure has always done — find the most efficient path through a system that doesn't respect their time. They have correctly identified that much of what they are assigned is not serious, and they have correctly stopped doing it.
+
+The question is what happens to the freed-up time. There is no scarcity of real problems for it to flow into. Seven billion mouths to feed. Hundreds of nuclear weapons to contain. Biological weapons whose creation is becoming trivial. A climate changing faster than we can model. An information environment breaking down. AI itself, which has to be aligned and governed and built carefully or carelessly. These problems are not in the back of the textbook. They are not in the rubric. They are at the frontier, where the answer is genuinely not yet known.
+
+The danger is not that students outsource the assignment to AI. The danger is that the time they reclaim from the dumb assignment goes to the feed — not because they want it to, but because nobody is competing for it with anything real. This is what college should be doing. It should be competing for that time. With problems that are hard, that matter, that the student actually cares about. Without that competition, attention goes to the feed by default, because attention follows the path of least resistance and the feed is engineered to be that path. The institution's job is to be the harder, better, more interesting path.
+
+The other objection, and Yingling's most haunting one, is the Whispering Earring — Scott Alexander's image of a device that gives advice always locally better than what the wearer would choose alone, until eventually it is directing individual muscle movements and the wearer is no longer choosing anything.
+
+I am less impressed by the metaphor than Yingling is. If the earring is actually right about everything always, then it is some kind of god, and a different conversation is required. If it is not, then sooner or later the gap between its advice and reality becomes visible and the spell breaks.
+
+But the real fear inside the metaphor is true, and I don't want to wave it away. It is not that the earring is omniscient. It is that the person under it can become cognitively mushy before they notice what they are losing — that the erosion is gradual enough to escape attention until reversal is hard. This is the actual risk.
+
+The answer is not to refuse the tool. The genie is out of the bottle. Like with thermonuclear weapons, we can take steps but we cannot reasonably guarantee. The answer is to push students into the domains where advancement still requires human ingenuity — where the tool helps but cannot do the thing alone, where the gap between machine fluency and real contribution remains wide. Not the math problem AI can solve in one prompt. The open question AI can scaffold but not answer. That kind of work resists the earring. You do not make someone mushy by giving them a problem they actually have to think about.
+
+A few weeks ago, I sat next to a woman on a plane who turned out to be a provost at a university in upstate New York. We got to talking about AI. Her advice for students facing this transition was simple: find a problem you care about solving. The tools will change. The big problems survive.
+
+That sentence has stayed with me.
+
+So here is what I think college should be. Not "humanist project versus job training," which is the binary Yingling defends. Something else.
+
+College is the place where a student can be scaffolded, fast, to the frontier of a field. To where the real problems live. And then handed the tools, including AI, to try to contribute.
+
+Freshman year can mostly stay. Intro courses, core requirements, breadth — these have always done double duty as exposure and catch-up. They should continue. One required course should be added: AI literacy and systems thinking.
+
+Stress the word *literacy*. Linguistic literacy is not the ability to write essays. It is the ability that opens every other door, from making a grocery list to building a brainstorm to reading a contract. AI literacy is the same kind of foundational skill: it helps with everything from online shopping to refining and stress-testing the ideas your brain generated in the brainstorm. It is also systems engineering — knowing what an agent is, how to orchestrate several of them, how to build a solution where one didn't previously exist. This is the language of the next thirty years. We are letting students graduate without speaking it.
+
+The current state is absurd on its face. Cornell has a swim test. Every undergraduate is required, by institutional rule, to demonstrate basic competence in water. The reasoning is sound — water is dangerous, an adult should know how to handle themselves around it. AI is going to shape every professional and intellectual domain these students enter for the rest of their lives, and the institution does not require them to know how it works. It requires integration by parts. It does not require this. That is the institution telling on itself.
+
+After freshman year, things change. A junior in a course on emotional-regulation research should not be writing a 12-page paper to a rubric on a topic the professor invented for the syllabus. They should be working on a real open question in the field, with the professor as advisor, with AI as a tool they are allowed to use.
+
+The mechanism that makes this work is honest tracking. Right now, AI use in a class is unofficially permitted and officially forbidden. Some students use it constantly. Some refuse to. Both groups are graded together, and the teacher pretends not to know. This is dishonest and corrosive — it punishes the students who refuse, rewards the students who hide, and teaches everyone that the institution does not mean what it says.
+
+The fix is something like the pass/fail option for grading. A student declares at the start of the term which track they are taking, on a separate official line on the transcript. **The baseline is AI allowed.** This is the default, because these are adults entering a workforce in which AI use is the norm, and the institution's job is to prepare them for the world they actually live in. Who exactly is the curriculum committee to decide that an 800-page reading list is a better use of a 21-year-old's time than learning to direct three agents to do a literature review in an afternoon? They are adults. The default should be tools on.
+
+The opt-out track exists because for some students, for some problems, working unaided is the right move — and those students should be allowed to do it, with the standard adjusted accordingly. They pledge to the opt-out. If they are caught using AI inside that track, the penalty is severe, because they have cheated against students who actually held the line. Both tracks are honest. The current track is not.
+
+Both tracks have a floor. In-person, no-electronics exams should anchor any course where the underlying mechanics actually need to live in the student's head. You should not get out of a statistics course without being able to derive a confidence interval on paper. You should not get out of organic chemistry without being able to draw a mechanism. If a professor is convinced a certain skill must be built unaided, they put it in the in-person exam, or they make the student present and defend it in front of the room. That's the right move. It is also a more honest move than the current one, which is to assign the take-home essay and pretend the student is not chatting it.
+
+Above the floor — the project, the contribution, the real work — let them solve the problem the best way they are capable of. Let them try, fail, and learn from their failures. Tools on. Safeties off.
+
+I should be honest about what is lost.
+
+Yingling is right that this is not free. The eccentric professor reading a poem aloud in a small room of attentive students is one of the most valuable things any institution has ever produced. The slow, patient, mostly-unaided formation of a young mind through years of hard reading and harder writing produced people who could think in ways almost no one can think now. There is grief in watching this go. Some of it is going. Some of it should be fought for.
+
+But the answer to grief is not pretending. It is not the older generation telling the younger one to optimize for a credential that increasingly does not mean what the credential used to mean. The world is harder than the institution wants to admit. The students are hungrier than the institution wants to admit. The right move is not to grasp at the remnants of last century's academic institutions. It is to look honestly at where we are, take what is best of what we had, and start moving the thing toward something that is at least alive.
+
+I do not pretend to know how all of this works. I am twenty-two. The split-classroom proposal is an idea. The required AI literacy course is an idea. The "scaffold to the frontier" framing might not survive contact with a real curriculum committee. The case I am making is not a finished proposal. It is an attempt at a direction.
+
+But I have spent four years inside the trial run. I have watched my own generation evacuate the parts of college that no longer mean anything, and pour themselves into the parts that still do — the late-night arguments, the projects that mattered, the moments when a teacher made a problem feel real. I have seen the difference between students who let AI do the work and students who used AI to get to harder work faster. The second kind exists. They are not zombies. They are the early version of what comes next.
+
+The frontier is real. The problems are real. The tools are here.
+
+Let's go.
+
 ## The Human Curriculum
 
 There is another opportunity here, more delicate and more important: schools should help students become human beings on purpose.
@@ -172,7 +249,6 @@ AI should not become therapy by chatbot, moral surveillance, or algorithmic pare
 
 A student who cannot direct attention cannot study. A student who cannot tolerate frustration cannot revise. A student who cannot distinguish avoidance from rest cannot build discipline without self-contempt. A student who cannot argue without humiliating or collapsing cannot participate in democracy. A student who cannot resist addictive design will be governed by whoever best captures the nervous system.
 
-AI could make this curriculum more interactive. Students could practice hard conversations, examine attention habits, simulate social dilemmas, receive prompts for reflection, and learn how recommendation systems exploit reward. But this must be done with restraint, transparency, human oversight, and opt-out protections. The goal is agency, not optimization. The goal is not to produce compliant children with better productivity metrics. The goal is to help young people understand their own minds well enough to choose.
 
 In a world of machine intelligence, the human curriculum becomes more urgent, not less. Students need to know how to use tools. They also need to know how tools use them.
 
@@ -184,7 +260,6 @@ The deepest fear is that education will surrender to the logic of optimization. 
 
 This is the Heideggerian worry, more specifically the worry about enframing. In "The Question Concerning Technology," Martin Heidegger argued that modern technology is not merely a set of instruments, but a way of revealing the world: things appear as resources to be ordered, stored, measured, and used. The river becomes hydroelectric potential. The forest becomes timber. In bad educational technology, the student becomes standing-reserve: data to be captured, predicted, nudged, monetized, and optimized.
 
-One does not have to accept all of Heidegger's philosophy to feel the force of the warning. Education should not reveal children primarily as human capital, future workers, skill bundles, risk scores, or engagement patterns. It should reveal them as persons: unfinished, mysterious, social, embodied, capable of truth and error, dependent on others, responsible for themselves, and worthy of forms of attention that cannot be reduced to metrics.
 
 But the critique of technological enframing is not an argument for paralysis. Sartre's existentialism offers the counterweight: tools and systems shape the situation, but they do not erase responsibility. Bad faith begins when people pretend they are merely obeying the logic of the system they are actively helping to build. There is no escape from responsibility by saying "the technology made us do it." A school district that adopts surveillance because it is convenient has chosen. A teacher who uses AI to deepen discussion has chosen. A student who lets a machine replace every difficult act has chosen. A public that leaves children's minds to the market has chosen.
 
@@ -196,21 +271,7 @@ If optimization becomes god, struggle looks like inefficiency. If formation rema
 
 Schools do not need a perfect theory before acting. They need a public, revisable design discipline.
 
-First, teach AI literacy as a core competence. Students should understand how AI systems work at a conceptual level, how they fail, how they persuade, how to verify claims, how to protect privacy, how to ask for useful help, and how to recognize when the tool is replacing rather than supporting thought. This should begin early and deepen over time.
-
-Second, redesign assignments around the scaffold/substitute line. Every major task should specify what kind of AI use is allowed, what must remain the student's own work, and how the student will demonstrate understanding. A blanket ban teaches secrecy. Total permission teaches outsourcing. Clear modes teach judgment.
-
-Third, mix assessment forms. Use AI-assisted projects, unaided in-class writing, oral defense, live problem solving, peer explanation, process reflection, and portfolio growth. The goal is not to catch students in wrongdoing. The goal is to make authorship harder to fake and easier to practice.
-
-Fourth, invest in teachers. Teachers need time, training, authority, and shared examples. They should help select tools, set norms, examine student work, and decide when AI belongs in a lesson. No policy will survive if teachers experience it as another mandate dropped onto an already crowded desk.
-
-Fifth, build public guardrails before dependency hardens. Require privacy protections, data minimization, deletion rights, accessibility, independent audits, transparency about model behavior, and limits on commercial use of student data. Children should not become the raw material of educational extraction.
-
-Sixth, preserve pluralism. AI tools used in public education should be contestable. Communities should be able to inspect assumptions, choose among approved systems, and debate curricular values. A democracy should not outsource its educational imagination to a single model or vendor.
-
-Seventh, pilot honestly. Start with bounded use cases where benefits and risks can be observed: tutoring in specific subjects, feedback on drafts, accessibility supports, teacher planning, enrichment pathways, and AI literacy lessons. Measure learning, equity, teacher workload, student agency, and unintended consequences. Publish what fails. Revise in public.
-
-Finally, protect the human curriculum. Teach attention, digital self-defense, emotional regulation, disagreement, agency, and the ethics of tool use. In a world designed to harvest attention, the ability to govern one's mind is not extracurricular. It is foundational.
+Schools should teach AI literacy as a core competence, beginning early and deepening over time. They should redesign assignments around the scaffold-substitute line — every major task specifying what kind of AI use is allowed and how the student will demonstrate understanding. They should mix assessment forms — AI-assisted projects, unaided in-class writing, oral defense, live problem solving — so authorship becomes harder to fake and easier to practice. And they should build public guardrails before dependency hardens: privacy protections, data minimization, independent audits, transparency about model behavior, and real limits on commercial use of student data.
 
 None of this is easy. But the alternative is not stability. The alternative is a shadow system in which some students use AI richly, some use it passively, some are punished for using it clumsily, teachers improvise alone, companies shape the defaults, and schools pretend the old artifact still means what it used to mean.
 
@@ -236,9 +297,11 @@ The task is not to make school effortless. The task is to help students struggle
 
 ## Works Cited
 
+- Alexander, Scott. "The Whispering Earring." Croissanthology, 2012. https://croissanthology.com/earring
 - Bloom, Benjamin S. "The 2 Sigma Problem: The Search for Methods of Group Instruction as Effective as One-to-One Tutoring." Educational Researcher, 1984. https://doi.org/10.3102/0013189X013006004
 - Gerlich, Michael. "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking." Societies, 2025. https://www.mdpi.com/2075-4698/15/1/6
 - Heidegger, Martin. "The Question Concerning Technology." In The Question Concerning Technology and Other Essays, 1977.
+- Hutchins, Robert M. *The Higher Learning in America.* New Haven: Yale University Press, 1936.
 - Kestin, Greg, Kelly Miller, Anna Klales, Timothy Milbourne, and Gregorio Ponti. "AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting." Scientific Reports, 2025. https://www.nature.com/articles/s41598-025-97652-6
 - Kosmyna, Nataliya, Eugene Hauptmann, Ye Tong Yuan, Jessica Situ, Xian-Hao Liao, Ashly Vivian Beresnitzky, Iris Braunstein, and Pattie Maes. "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task." arXiv preprint, 2025. https://www.media.mit.edu/publications/your-brain-on-chatgpt/
 - Renzulli, Joseph S. "The Three-Ring Conception of Giftedness: A Developmental Model for Promoting Creative Productivity." In Conceptions of Giftedness, 2005. https://www.cambridge.org/core/books/conceptions-of-giftedness/threering-conception-of-giftedness-a-developmental-model-for-promoting-creative-productivity/E7DAC1BEBC422614263DC8EEC4A771A8
@@ -252,3 +315,4 @@ The task is not to make school effortless. The task is to help students struggle
 - UNESCO. "Guidance for generative AI in education and research." 2023. https://www.unesco.org/en/articles/guidance-generative-ai-education-and-research
 - VanLehn, Kurt. "The Relative Effectiveness of Human Tutoring, Intelligent Tutoring Systems, and Other Tutoring Systems." Educational Psychologist, 2011. https://doi.org/10.1080/00461520.2011.611369
 - Williams-Ceci, Sterling, Maurice Jakesch, Advait Bhat, Kowe Kadoma, Lior Zalmanson, and Mor Naaman. "Biased AI writing assistants shift users' attitudes on societal issues." Science Advances, 2026. https://doi.org/10.1126/sciadv.adw5578
+- Yingling, Owen. "The Great Zombification." The New Critic, May 11, 2026. https://www.thenewcritic.com/p/the-great-zombification
