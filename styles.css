@@ -66,6 +66,20 @@ button {
   font: inherit;
   cursor: pointer;
 }
+.site-header [data-print] {
+  border-color: rgba(20, 60, 52, .24);
+  background: transparent;
+  color: var(--green);
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: 800;
+}
+.site-header [data-print]:hover,
+.site-header [data-print]:focus-visible {
+  border-color: rgba(20, 60, 52, .42);
+  background: rgba(20, 60, 52, .06);
+  outline: none;
+}
 .hero {
   position: relative;
   min-height: min(760px, calc(100vh - 58px));
@@ -129,6 +143,9 @@ button {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(19px, 2vw, 27px);
   line-height: 1.35;
+}
+.tone-quote p span {
+  color: rgba(24, 33, 29, .64);
 }
 .tone-quote cite {
   display: block;
@@ -717,7 +734,6 @@ button {
 }
 .lesson-body .site-header button {
   min-height: 32px;
-  padding: 6px 10px;
   line-height: 1.1;
 }
 .lesson-page {
