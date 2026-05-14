@@ -259,10 +259,10 @@ button {
 .slide-controls span { min-width: 72px; text-align: center; color: var(--muted); }
 .essay-shell {
   display: grid;
-  grid-template-columns: minmax(300px, 360px) minmax(0, 800px);
+  grid-template-columns: minmax(300px, 340px) minmax(0, 920px);
   gap: clamp(24px, 4vw, 56px);
   align-items: start;
-  max-width: 1240px;
+  max-width: 1380px;
   margin: 0 auto;
   padding: clamp(42px, 7vw, 92px) clamp(18px, 4vw, 42px);
 }
