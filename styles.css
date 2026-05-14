@@ -259,10 +259,10 @@ button {
 .slide-controls span { min-width: 72px; text-align: center; color: var(--muted); }
 .essay-shell {
   display: grid;
-  grid-template-columns: minmax(220px, 280px) minmax(0, 820px);
-  gap: clamp(28px, 6vw, 72px);
+  grid-template-columns: minmax(300px, 360px) minmax(0, 800px);
+  gap: clamp(24px, 4vw, 56px);
   align-items: start;
-  max-width: 1180px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: clamp(42px, 7vw, 92px) clamp(18px, 4vw, 42px);
 }
@@ -282,14 +282,12 @@ button {
   text-transform: uppercase;
 }
 .toc a {
-  display: grid;
-  grid-template-columns: 34px 1fr;
-  gap: 10px;
-  padding: 8px 0;
+  display: block;
+  padding: 7px 0;
   color: var(--ink);
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.25;
+  font-size: 13px;
+  line-height: 1.18;
 }
 .toc span { color: var(--gold); font-weight: 800; }
 .essay-reader { min-width: 0; }
